@@ -1,1 +1,1 @@
-# cc-checker
+# Trying to learn how to code
