@@ -32,7 +32,7 @@ int main(void)
         digits++;
     }
 
-    //CheckSum and determine which card company it belongs to
+    //Check sum if CC Number is valid
     if ((sum % 10) == 0)
     {
         //Picks out the first two digits
@@ -40,6 +40,7 @@ int main(void)
         {
             num /= 10;
         }
+        //Compare digits and the first two digits to determine CC Company
         if (digits == 15 && (num == 34 || num == 37))
         {
             printf("AMEX\n");
